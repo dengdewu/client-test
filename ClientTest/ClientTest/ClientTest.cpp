@@ -2,7 +2,7 @@
 #include <QHostAddress>
 #include <QDataStream>
 #include <QTcpSocket>
-
+//Test string
 ClientTest::ClientTest(QWidget *parent)
 	: QWidget(parent)
 {
