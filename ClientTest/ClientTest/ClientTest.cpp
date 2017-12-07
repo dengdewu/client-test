@@ -3,6 +3,7 @@
 #include <QDataStream>
 #include <QTcpSocket>
 //Test string
+//Test string 2
 ClientTest::ClientTest(QWidget *parent)
 	: QWidget(parent)
 {
