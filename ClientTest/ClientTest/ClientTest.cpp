@@ -2,8 +2,12 @@
 #include <QHostAddress>
 #include <QDataStream>
 #include <QTcpSocket>
+<<<<<<< HEAD
 //Test string
 //Test string 2
+=======
+
+>>>>>>> parent of 1230ead... 。。。
 ClientTest::ClientTest(QWidget *parent)
 	: QWidget(parent)
 {
