@@ -2,12 +2,7 @@
 #include <QHostAddress>
 #include <QDataStream>
 #include <QTcpSocket>
-<<<<<<< HEAD
-//Test string
-//Test string 2
-=======
 
->>>>>>> parent of 1230ead... 。。。
 ClientTest::ClientTest(QWidget *parent)
 	: QWidget(parent)
 {
@@ -15,7 +10,7 @@ ClientTest::ClientTest(QWidget *parent)
 	tcpsocket = new QTcpSocket(this);
 	connect(tcpsocket, SIGNAL(readyRead()), this, SLOT(readMsg()));
 	connect(ui.pushButton,SIGNAL(clicked()),this,SLOT(onclicked()));
-	tcpsocket->connectToHost(QHostAddress("192.168.1.23"),5353);
+	tcpsocket->connectToHost(QHostAddress("192.168.17.233"),6868);
 }
 void ClientTest::onclicked()
 {
